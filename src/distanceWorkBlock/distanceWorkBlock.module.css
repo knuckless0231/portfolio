@@ -1,0 +1,30 @@
+.distance{
+    height: 30vh;
+    background-color:goldenrod ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    /*border: 1px solid;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.insideContainer{
+    border: 1px solid;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    background-color: transparent;
+    cursor: pointer;
+    border-color: gold;
+    border-radius: 8px;
+}

@@ -1,0 +1,38 @@
+.img{
+    width: 200px;
+    height: 200px;
+}
+
+.buttonImageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+    color: #9dc94c;
+    position: absolute;
+    bottom:20%;
+    cursor: pointer;
+}
+
+.descriptionContainer{
+    align-items: flex-start;
+    background-color: white;
+    padding: 10px;
+}
+
+.description{
+    background-color: #c2c2c2;
+    width: 100%;
+    padding: 1px;
+}
+
+.title{
+    background-color: #c2c2c2;
+    width: 100%;
+    padding: 1px;
+}
