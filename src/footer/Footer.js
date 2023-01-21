@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './footer.module.css'
 import generalContainer from "../common/styles/container.module.css";
+import {Title} from "../common/title/Title";
 
 
 
@@ -9,7 +10,7 @@ const Footer = () => {
     return (
         <div className={s.footerBlock}>
             <div className={`${generalContainer.container} ${s.container}`}>
-                <div>Kostya Kokhanov</div>
+                <Title title={'Kostya Kokhanov'}/>
                 <div className={s.iconsBlock}>
                     <div className={s.icon}>er</div>
                     <div className={s.icon}>er</div>

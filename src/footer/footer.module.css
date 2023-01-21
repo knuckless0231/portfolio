@@ -1,7 +1,8 @@
 .footerBlock{
     background-color: olive;
-    height: 20vh;
+    min-height: 20vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 

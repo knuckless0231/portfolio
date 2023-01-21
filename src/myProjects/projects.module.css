@@ -1,42 +1,31 @@
-.project{
-    height: 100vh;
-    background-color: #9dc94c;
+.projectBlock{
+    min-height: 100vh;
+    background-color: darkcyan;
     display: flex;
     justify-content: center;
-    align-items: center;
 
 }
 
 .container{
+    max-width: 80%;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    /*border: 1px solid;*/
     align-items: center;
-    height: 80%;
+    /*flex-wrap: wrap;*/
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
 }
 
 .projects{
-    border: 1px solid;
     display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    /*height: 80%;*/
-
+    justify-content: center;
+    max-width: 80%;
+    flex-wrap: wrap;
 }
 
-/*.projectContainer {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    border: 1px solid;*/
-/*}*/
-
-/*    position: absolute;*/
-/*    padding: 10px;*/
-/*    background-color: transparent;*/
-/*    bottom: 0%;*/
-/*    left:20%;*/
-/*    border: none;*/
-/*    color: #9dc94c;*/
-/*}*/
