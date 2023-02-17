@@ -6,8 +6,8 @@ import s from './skill.module.css'
 const Skill = (props) => {
     return (
         <div className={s.skill}>
-            <div className={s.icon}></div>
-            <h3>{props.title}</h3>
+            <img src={props.img} className={s.icon}></img>
+            <h3 className={s.title}>{props.title}</h3>
             <span className={s.spanSkill}>{props.skill}</span>
         </div>
     );

@@ -1,6 +1,6 @@
 .projectBlock{
     min-height: 100vh;
-    background-color: darkcyan;
+    background-color: black;
     display: flex;
     justify-content: center;
 
@@ -27,5 +27,11 @@
     justify-content: center;
     max-width: 80%;
     flex-wrap: wrap;
+}
+.line{
+    height: 2px;
+    border-radius: 10px;
+    width: 100%;
+    background: white;
 }
 

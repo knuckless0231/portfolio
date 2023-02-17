@@ -7,6 +7,7 @@ import Projects from "./myProjects/Projects";
 import DistanceWorkBlock from "./distanceWorkBlock/DistanceWorkBlock";
 import Contacts from "./contacts/Contacts";
 import Footer from "./footer/Footer";
+import Sidebar from "./sidebar/Sidebar";
 
 
 function App() {

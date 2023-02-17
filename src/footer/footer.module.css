@@ -1,28 +1,43 @@
 .footerBlock{
-    background-color: olive;
-    min-height: 20vh;
+    background-color: #000000;
+    min-height: 70vh;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .container{
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .iconsBlock{
-    width: 60%;
+    width: 30%;
     height: 40%;
     border: 1px solid;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .icon{
     width: 30px;
     height: 30px;
-    border: 1px solid;
+    color: white;
+}
 
+.titleFooter{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+.line{
+    height: 2px;
+    border-radius: 10px;
+    width: 100%;
+    background: white;
 }

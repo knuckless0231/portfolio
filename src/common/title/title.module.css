@@ -1,4 +1,20 @@
 .title{
     margin-bottom: 10%;
     padding: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 0.5px;
+}
+.psevdo{
+    width: 30px;
+    height: 2px;
+    border-radius: 8px;
+    background-color: #0e90a1;
+    position: absolute;
+    /*bottom: -30px;*/
+    left: 50%;
+    transform: translate(-50%,50%);
+    margin-bottom: 10%;
+
 }

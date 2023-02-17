@@ -1,5 +1,5 @@
 .contactsBlock{
-    background-color: #95e1ef;
+    background-color: black;
     min-height: 50vh;
     display: flex;
     justify-content: center;
@@ -24,6 +24,3 @@
     flex-direction: column;
 }
 
-/*.input{*/
-/*    margin-bottom: 5px;*/
-/*}*/

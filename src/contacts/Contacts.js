@@ -10,8 +10,8 @@ const Contacts = () => {
         <div className={s.contactsBlock}>
             <div className={`${generalContainer.container} ${s.container}`}>
                 <Title title={'Contacts'}/>
-            <div className={s.formContainer}>
-                <form className={s.form}>
+            <div className={s.formContainer}id={'form'}>
+                <form className={s.form} >
                     <input className={s.input} type="text" placeholder={'type text'}/>
                     <input className={s.input} type="text" placeholder={'type text'}/>
                     <textarea className={s.textArea} name=""  cols="30" rows="10">
@@ -19,6 +19,7 @@ const Contacts = () => {
                 </form>
             </div>
                 <Button title={'Send'}/>
+
             </div>
         </div>
     );
