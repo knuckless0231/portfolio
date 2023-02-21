@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Header from "./header/Header";
-import Main from "./main/main";
-import Skills from "./skills/Skills";
-import Projects from "./myProjects/Projects";
-import DistanceWorkBlock from "./distanceWorkBlock/DistanceWorkBlock";
-import Contacts from "./contacts/Contacts";
-import Footer from "./footer/Footer";
-import Sidebar from "./sidebar/Sidebar";
+import Header from "./components/header/Header";
+import Main from "./components/main/main";
+import Skills from "./components/skills/Skills";
+import Projects from "./components/myProjects/Projects";
+import DistanceWorkBlock from "./components/distanceWorkBlock/DistanceWorkBlock";
+import Contacts from "./components/contacts/Contacts";
+import Footer from "./components/footer/Footer";
+import Sidebar from "./components/sidebar/Sidebar";
 
 
 function App() {

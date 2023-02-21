@@ -1,20 +1,20 @@
 .title{
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     padding: 0;
     color: white;
     text-align: center;
     font-family: 'Rubik', sans-serif;
     letter-spacing: 0.5px;
+    position: relative;
 }
-.psevdo{
+.title:after{
+    content:'';
     width: 30px;
     height: 2px;
     border-radius: 8px;
-    background-color: #0e90a1;
+    background-color: white;
+    bottom:-20%;
     position: absolute;
-    /*bottom: -30px;*/
     left: 50%;
     transform: translate(-50%,50%);
-    margin-bottom: 10%;
-
 }

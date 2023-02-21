@@ -1,5 +1,5 @@
 import React from 'react';
-import s from "./Line.nodule.css";
+import s from "./Line.module.css";
 
-export const Line = () => {return <div className={s.line}><hr/></div>};
+export const Line = () => {return <div className={s.line}></div>};
 

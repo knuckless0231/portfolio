@@ -1,0 +1,91 @@
+/*.skillsBlock{*/
+/*    background-color: #000000;*/
+/*    height: 100vh;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    border: 1px solid white;*/
+/*}*/
+
+
+/*.skillsContainer{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content:space-between;*/
+/*    flex-direction: column;*/
+/*    height: 80%;*/
+/*    border: 1px solid white;*/
+/*}*/
+
+/*.skills{*/
+/*    width: 100%;*/
+/*    min-height: 80%;*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    flex-wrap: wrap;*/
+/*    color:white;*/
+/*    border: 1px solid white;*/
+/*}*/
+
+
+/*.skillsBlock{*/
+/*    background-color: #000000;*/
+/*    height: 100vh;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    border: 1px solid white;*/
+/*}*/
+/*!*@media screen and (max-width: 890px){*!*/
+/*!*    .skillsBlock*!*/
+/*!*}*!*/
+
+/*.skillsContainer{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content:space-between;*/
+/*    flex-direction: column;*/
+/*    height: 80%;*/
+/*    !*border: 1px solid white;*!*/
+/*}*/
+
+/*.skills{*/
+/*    width: 100%;*/
+/*    min-height: 80%;*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    flex-wrap: wrap;*/
+/*    color:white;*/
+/*    !*border: 1px solid white;*!*/
+/*}*/
+.skillsBlock{
+    background-color: #000000;
+    /*height: 100vh;*/
+    /*problem!!!!!!!!!!!!!!!!!!^^^^^^^^^^^^^^^*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.skillsContainer{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.skills{
+    /*background-color: #d0d0d0;*/
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color:white;
+
+}
+
+
+
