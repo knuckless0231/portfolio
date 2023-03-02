@@ -20,10 +20,9 @@ import {Line} from '../../common/Line/Line'
 
 const Skills = () => {
     return (
-        <div className={s.skillsBlock}>
+        <div id={"services"} className={s.skillsBlock} >
+            <Line/>
             <div className={`${generalContainer.container} ${s.skillsContainer}`}>
-                <Line />
-
                 <div>
                     <Title title={'Services'}/>
                 </div>
@@ -41,9 +40,8 @@ const Skills = () => {
                     <Skill title={'Redux'} skill={'Have confident skills'} img={ReduxImg}/>
                     <Skill title={'GitHub'} skill={'Have confident skills'} img={gitHubImg}/>
                 </div>
-<Line/>
             </div>
-
+            <Line/>
         </div>
     );
 };

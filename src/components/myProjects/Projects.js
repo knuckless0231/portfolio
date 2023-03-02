@@ -8,12 +8,11 @@ import {Line} from '../../common/Line/Line'
 
 const Projects = (props) => {
     return (
-        <div className={s.projectBlock}>
+        <div id={'projects'} className={s.projectBlock}>
             <div className={`${generalContainer} ${s.container}`}>
                 <div>
                     <Title title={'My Projects'}/>
                 </div>
-
                 <div className={s.projects}>
                     <Project title={'Project2'} description={'Miami'}
                              img={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwYvRUF6CwX1jDAEF_la46hU7iCOboOcolva6DSikp2YUXnkpBfZIkYmyzsRe5uO7Zw-Q&usqp=CAU'}/>

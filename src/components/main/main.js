@@ -2,7 +2,6 @@ import React from 'react';
 import s from './main.module.css'
 import generalContainer from '../../common/styles/container.module.css'
 import photo from '../../common/photo/photo_2023-02-14_18-01-22.jpg'
-import {Line} from '../../common/Line/Line'
 
 const Main = () => {
     return (

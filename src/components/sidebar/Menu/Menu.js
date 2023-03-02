@@ -2,7 +2,6 @@ import React from 'react';
 import {bool} from 'prop-types';
 import {CloseIcon, StyledMenu} from './Menu.styled';
 
-
 const Menu = ({open, setOpen,...props}) => {
 
     const isHidden = open ? true : false;
@@ -16,22 +15,18 @@ const Menu = ({open, setOpen,...props}) => {
 
             <CloseIcon onClick={onClose}/>
 
-            <a href="/Incubator/portfolio/public" tabIndex={tabIndex}>
-                <span aria-hidden="true">💁🏻‍♂️</span>
-                About us
+            <a href="#services" onClick={onClose}>
+                {/*<span aria-hidden="true">💁🏻‍♂️</span>*/}
+                My Services
             </a>
-            <a href="/Incubator/portfolio/public" tabIndex={tabIndex}>
-                <span aria-hidden="true">💸</span>
-                Pricing
+            <a href="#projects"onClick={onClose} >
+                My Projects
             </a>
-            <a href="/Incubator/portfolio/public" tabIndex={tabIndex}>
-                <span aria-hidden="true">📩</span>
-                Contact
+            <a href="#hire" onClick={onClose} tabIndex={tabIndex}>
+                Hire Me
             </a>
-
 
         </StyledMenu >
-
     )
 }
 
