@@ -5,13 +5,13 @@ import InstImg from '../../common/icons/instagram.png'
 import TelegramImg from '../../common/icons/telegram.png'
 import LinkImg from '../../common/icons/linkedin.PNG'
 import GitHub from '../../common/icons/gitHub.png'
+import {Line} from '../../common/Line/Line'
 
 
 const Footer = () => {
 
     return (
         <div className={s.footerBlock}>
-            <div className={s.line}></div>
             <div className={`${generalContainer.container} ${s.container}`}>
                 <h1 className={s.titleFooter}>Let’s work together</h1>
                 <div className={s.iconsBlock}>
@@ -24,7 +24,6 @@ const Footer = () => {
                 </div>
             </div>
             <div>(c) All rights are protected</div>
-
         </div>
     );
 };

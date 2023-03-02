@@ -9,18 +9,18 @@ import {Line} from '../../common/Line/Line'
 const DistanceWorkBlock = () => {
 
     return (
-        <div className={s.distance}>
+        <div id={'hire'} className={s.distance}>
+            <Line/>
             <div className={`${generalContainer.container} ${s.container}`}>
-                <Line/>
                 <div className={`${generalContainer.container} ${s.insideContainer}`}>
                     <Title title={'Looking into remote work options'}/>
-                    <a href="src/components/distanceWorkBlock/DistanceWorkBlock#form">{<Button title={'Hire me'}/>}</a>
+                    <a href="#hire">{<Button title={'Hire me'}/>}</a>
                 </div>
-                <Line/>
             </div>
+            <Line/>
         </div>
     );
 };
 
 export default DistanceWorkBlock;
-//test dhhhfhhfhfhh
+
