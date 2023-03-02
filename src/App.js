@@ -9,6 +9,9 @@ import Contacts from "./components/contacts/Contacts";
 import Footer from "./components/footer/Footer";
 
 
+import {Route, RouterProvider} from "react-router-dom";
+import {router} from './common/Routing/Routing'
+
 export const App = () => {
     return (
         <div className="App">
