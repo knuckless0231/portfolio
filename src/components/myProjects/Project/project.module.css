@@ -1,6 +1,12 @@
 .img{
-    width: 200px;
-    height: 200px;
+    /*min-width: 10px ;*/
+    max-width: 200px ;
+    /*min-height: 10px;*/
+    max-height: 200px;
+}
+
+.currentProject{
+    padding:  10% 20px ;
 }
 
 .buttonImageContainer {
@@ -13,16 +19,29 @@
 .btn{
     background-color: transparent;
     border: none;
-    color: #9dc94c;
+    color: #ffffff;
     position: absolute;
-    bottom:20%;
+    bottom:10%;
     cursor: pointer;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.btnn{
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    position: absolute;
+    top:10%;
+    cursor: pointer;
+    font-size: 10px;
 }
 
 .descriptionContainer{
     align-items: flex-start;
     background-color: white;
     padding: 10px;
+
 }
 
 .description{
@@ -36,3 +55,4 @@
     width: 100%;
     padding: 1px;
 }
+

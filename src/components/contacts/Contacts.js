@@ -38,23 +38,22 @@ const Contacts = () => {
                 <Title title={'Contacts'}/>
                 <div className={s.formContainer}>
 
-                    <form onSubmit={handleSubmit(onSubmit)}>
-                        <input placeholder={'type text'} {...register("exampleRequired", {required: true})} />
-
-                        <input placeholder={'type text'} {...register("exampleRequired", {required: true})} />
-
-                        <input type="submit"/>
+                    <form onSubmit={handleSubmit(onSubmit)} className={s.form}>
+                        <input placeholder={'Enter your name / company'} {...register("name", {required: true})} />
+                        <input placeholder={'Enter email'} {...register("email", {required: true})} />
+                        <input type="text" placeholder={"Say something"} className={s.textForm} {...register("text", {required: true})}/>
+                        <input type="submit" className={s.inputStyle} />
                     </form>
 
-                    <form className={s.form}>
-                        <input className={s.input} type="text" placeholder={'type text'}/>
-                        <input className={s.input} type="text" placeholder={'type text'}/>
-                        <textarea className={s.textArea} name="" cols="30" rows="10">
-                    </textarea>
-                    </form>
+                    {/*<form className={s.form}>*/}
+                    {/*    <input className={s.input} type="text" placeholder={'type text'}/>*/}
+                    {/*    <input className={s.input} type="text" placeholder={'type text'}/>*/}
+                    {/*    <textarea className={s.textArea} name="" cols="30" rows="10">*/}
+                    {/*</textarea>*/}
+                    {/*</form>*/}
 
                 </div>
-                <Button title={'Send'} type="submit"/>
+                {/*<Button title={'Send'} type="submit"/>*/}
             </div>
             <Line/>
         </div>

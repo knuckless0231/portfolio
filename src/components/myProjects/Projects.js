@@ -3,8 +3,8 @@ import s from './projects.module.css'
 import generalContainer from '../../common/styles/container.module.css'
 import Project from "./Project/Project";
 import {Title} from "../../common/title/Title";
-import {Line} from '../../common/Line/Line'
-
+import todoImage from '../../common/icons/todo-list.jpg'
+import socialNetworkImage from '../../common/icons/social-network.jpg'
 
 const Projects = (props) => {
     return (
@@ -14,12 +14,19 @@ const Projects = (props) => {
                     <Title title={'My Projects'}/>
                 </div>
                 <div className={s.projects}>
-                    <Project title={'Project2'} description={'Miami'}
-                             img={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwYvRUF6CwX1jDAEF_la46hU7iCOboOcolva6DSikp2YUXnkpBfZIkYmyzsRe5uO7Zw-Q&usqp=CAU'}/>
-                    <Project title={'Project2'} description={'Miami'}
-                             img={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwYvRUF6CwX1jDAEF_la46hU7iCOboOcolva6DSikp2YUXnkpBfZIkYmyzsRe5uO7Zw-Q&usqp=CAU'}/>
-                    <Project title={'Project2'} description={'Miami'}
-                             img={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwYvRUF6CwX1jDAEF_la46hU7iCOboOcolva6DSikp2YUXnkpBfZIkYmyzsRe5uO7Zw-Q&usqp=CAU'}/>
+                    <Project
+                        linkcode={'https://github.com/knuckless0231/portfolio.git'}
+                        link={'https://www.google.com/?&bih=829&biw=1730&hl=ru'}
+                        title={'Todo List'} description={'Miami'}
+                        img={todoImage}/>
+                    <Project
+                        link={'https://www.google.com/?&bih=829&biw=1730&hl=ru'}
+                        title={'Social Network'} description={'Miami'}
+                        img={socialNetworkImage}/>
+                    <Project
+                        link={'https://www.google.com/?&bih=829&biw=1730&hl=ru'}
+                        title={'Project2'} description={'Miami'}
+                        img={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwYvRUF6CwX1jDAEF_la46hU7iCOboOcolva6DSikp2YUXnkpBfZIkYmyzsRe5uO7Zw-Q&usqp=CAU'}/>
                 </div>
             </div>
         </div>
