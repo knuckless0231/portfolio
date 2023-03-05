@@ -18,10 +18,15 @@
 .skills{
     width: 100%;
     display: grid;
+    /*repeat(auto-fit, [col-start] 250px [col-end])*/
+    /*grid-template-columns: repeat(auto-fit,minmax(1fr, 4fr));*/
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     justify-items: center;
+    justify-content: space-between;
+
     color:white;
 }
+
 
 
 
