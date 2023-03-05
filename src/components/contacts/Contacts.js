@@ -62,15 +62,15 @@ const Contacts = () => {
                         <input type="submit"/>
                     </form>
 
-                    <form className={s.form}>
-                        <input className={s.input} type="text" placeholder={'type text'}/>
-                        <input className={s.input} type="text" placeholder={'type text'}/>
-                        <textarea className={s.textArea} name="" cols="30" rows="10">
-                    </textarea>
-                    </form>
+                    {/*<form className={s.form}>*/}
+                    {/*    <input className={s.input} type="text" placeholder={'type text'}/>*/}
+                    {/*    <input className={s.input} type="text" placeholder={'type text'}/>*/}
+                    {/*    <textarea className={s.textArea} name="" cols="30" rows="10">*/}
+                    {/*</textarea>*/}
+                    {/*</form>*/}
 
                 </div>
-                <Button title={'Send'} type="submit"/>
+                {/*<Button title={'Send'} type="submit"/>*/}
             </div>
             <Line/>
         </div>

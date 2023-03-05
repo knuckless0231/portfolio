@@ -14,10 +14,9 @@ const DistanceWorkBlock = () => {
             <div className={`${generalContainer.container} ${s.container}`}>
                 <div className={`${generalContainer.container} ${s.insideContainer}`}>
                     <Title title={'Looking into remote work options'}/>
-                    <a href="#hire">{<Button title={'Hire me'}/>}</a>
+                    <a href="">{<Button title={'Hire me'}/>}</a>
                 </div>
             </div>
-            <Line/>
         </div>
     );
 };
