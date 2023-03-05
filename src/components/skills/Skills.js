@@ -23,7 +23,7 @@ const Skills = () => {
         <div id={"services"} className={s.skillsBlock} >
             <Line/>
             <div className={`${generalContainer.container} ${s.skillsContainer}`}>
-                <div>
+                <div className={s.title}>
                     <Title title={'Services'}/>
                 </div>
                 <div className={s.skills}>
@@ -41,7 +41,6 @@ const Skills = () => {
                     <Skill title={'GitHub'} skill={'Have confident skills'} img={gitHubImg}/>
                 </div>
             </div>
-            <Line/>
         </div>
     );
 };

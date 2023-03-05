@@ -4,7 +4,7 @@
 }
 
 .currentProject{
-    padding:  10% 20px ;
+    padding:  0 20px;
 }
 
 .buttonImageContainer {
@@ -44,7 +44,7 @@
 
 .description{
     background-color: #c2c2c2;
-    width: 100%;
+    width:200px;
     padding: 1px;
 }
 

@@ -17,7 +17,6 @@ const DistanceWorkBlock = () => {
                     <a href="#hire">{<Button title={'Hire me'}/>}</a>
                 </div>
             </div>
-            <Line/>
         </div>
     );
 };
