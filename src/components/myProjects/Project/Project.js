@@ -8,6 +8,7 @@ const Project = (props) => {
             <div className={s.buttonImageContainer}>
                 <p className={s.btnn}>CLICK PICTURE and see github deploy</p>
                 <a href={props.link}> <img src={props.img} className={s.img} alt=""/> </a>
+                {/*<button className={s.btn}>CLICK ME and see github repository</button>*/}
                 <a href={props.linkcode} className={s.btn}>CLICK ME and see github repository</a>
             </div>
             <div className={`${s.buttonImageContainer} ${s.descriptionContainer}`}>

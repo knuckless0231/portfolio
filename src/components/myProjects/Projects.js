@@ -9,6 +9,8 @@ import counter from '../../common/icons/counter.JPG'
 import {Line} from "../../common/Line/Line";
 
 const Projects = () => {
+
+const Projects = (props) => {
     return (
         <div id={'projects'} className={s.projectBlock}>
             <Line/>
