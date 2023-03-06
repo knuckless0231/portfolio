@@ -27,7 +27,7 @@ const Contacts = () => {
             </div>
     <Line/>
 </div>
-)
+ )
 };
 
 export default Contacts;
