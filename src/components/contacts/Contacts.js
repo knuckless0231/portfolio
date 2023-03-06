@@ -23,15 +23,7 @@ const Contacts = () => {
                                className={s.textForm} {...register("text", {required: true})}/>
                         <input type="submit" className={s.inputStyle}/>
                     </form>
-
                 </div>
-                <form onSubmit={handleSubmit(onSubmit)}>
-                    <input placeholder={'type text'} {...register("exampleRequired", {required: true})} />
-
-                    <input placeholder={'type text'} {...register("exampleRequired", {required: true})} />
-
-                    <input type="submit"/>
-                </form>
             </div>
     <Line/>
 </div>
