@@ -19,7 +19,7 @@ const Menu = ({open, setOpen,...props}) => {
                 {/*<span aria-hidden="true">💁🏻‍♂️</span>*/}
                 My Services
             </a>
-            <a href="#projects"onClick={onClose} >
+            <a href="#projects" onClick={onClose} >
                 My Projects
             </a>
             <a href="#hire" onClick={onClose} tabIndex={tabIndex}>

@@ -7,8 +7,8 @@
 }
 
 .currentProject{
-    padding:  0 20px;
-    padding:  10% 20px ;
+    /*padding:  0 20px;*/
+    padding:  2% 20px ;
 }
 
 .buttonImageContainer {
@@ -21,7 +21,7 @@
 .btn{
     background-color: transparent;
     border: none;
-    color: #ffffff;
+    color: #3bb1d5;
     position: absolute;
     bottom:10%;
     cursor: pointer;
@@ -29,25 +29,25 @@
     text-decoration: none;
 }
 
-.btnn{
-    background-color: transparent;
-    border: none;
-    color: #ffffff;
-    position: absolute;
-    top:10%;
-    cursor: pointer;
-    font-size: 10px;
-    position: absolute;
-    bottom:10%;
-    cursor: pointer;
-    font-size: 10px;
-    text-decoration: none;
-}
+/*.btnn{*/
+/*    background-color: transparent;*/
+/*    border: none;*/
+/*    color: #197896;*/
+/*    position: absolute;*/
+/*    top:10%;*/
+/*    cursor: pointer;*/
+/*    font-size: 10px;*/
+/*    position: absolute;*/
+/*    bottom:10%;*/
+/*    cursor: pointer;*/
+/*    font-size: 10px;*/
+/*    text-decoration: none;*/
+/*}*/
 
 .btnn{
     background-color: transparent;
     border: none;
-    color: #ffffff;
+    color: #197896;
     position: absolute;
     top:10%;
     cursor: pointer;

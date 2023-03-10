@@ -1,15 +1,22 @@
 .mainBlock{
-    height: 100vh;
+    min-height: 100vh;
     background-color: black;
     display: flex;
     justify-content: center;
-
 }
+
 
 .textBlock{
     background-color: #c2c2c2;
     font-family:'Rubik', sans-serif;
-
+    width: 40%;
+}
+@media screen and (max-width: 604px){
+    .textBlock{
+        margin-top: 20%;
+        margin-bottom: 5%;
+        width: 80%;
+    }
 }
 
 .mainTitle {
@@ -20,7 +27,7 @@
 }
 
 .ava{
-    max-width: 250px;
+    max-width: 300px;
     height: auto;
 }
 

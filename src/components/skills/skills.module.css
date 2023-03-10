@@ -1,8 +1,6 @@
 .skillsBlock{
     background-color: #000000;
     min-height: 80vh;
-    /*align-items: center;*/
-    /*justify-content: center;*/
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -10,7 +8,7 @@
 }
 
 .title{
-    padding: 5% 0;
+    padding: 4% 0;
 }
 
 
@@ -20,7 +18,8 @@
     justify-content:space-between;
     flex-direction: column;
     height: 100%;
-    padding:0 0 10% 0;
+    max-width: 60%;
+    padding:0 0 8% 0;
 }
 
 .skills{

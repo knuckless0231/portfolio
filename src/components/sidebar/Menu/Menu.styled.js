@@ -36,7 +36,7 @@ export const StyledMenu = styled.nav`
 export const CloseIcon = styled(FaRegWindowClose)`
   color: grey;
   position:fixed;
-  top:15%;
+  top:25%;
   font-size: 50px;
   cursor: pointer;
   transition: all 0.3s;
